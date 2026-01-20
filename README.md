@@ -10,7 +10,7 @@
 
 ## ③ アプリのデプロイ URL
 
-- https://ahmad-no1.sakura.ne.jp/kadai09_php04/index.php
+- https://ahmad-no1.sakura.ne.jp/kadai09_php04/login.php
 
 ## ④ アプリのログイン用 ID または Password（ある場合）
 
