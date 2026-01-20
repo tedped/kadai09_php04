@@ -11,8 +11,10 @@ function db_conn()
         $db_host = 'localhost'; //DBホスト
         $pdo = new PDO('mysql:dbname=' . $db_name . ';charset=utf8;host=' . $db_host, $db_id, $db_pw);
         return $pdo;
-    } catch (PDOException $e) {
-        exit('DB Connection Error:' . $e->getMessage());
+    } catch(PDOException $e) {
+        error_log($e->getMessage());
+        header('Location: /500.html');
+        exit;
     }
 }
 
