@@ -5,7 +5,7 @@
 function db_conn()
 {
     try {
-        $db_name = 'gs_kadai08';    //データベース名
+        $db_name = 'gs_kadai09';    //データベース名
         $db_id   = 'root';      //アカウント名
         $db_pw   = 'root';      //パスワード：XAMPPはパスワード無しに修正してください。
         $db_host = 'localhost'; //DBホスト
